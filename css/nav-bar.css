@@ -26,18 +26,6 @@
     transform: none;
   }
   50% {
-    transform: rotateY(1turn) scale(0.5);
-  }
-  100% {
-    transform: none;
-  }
-}
-
-@keyframes badge {
-  0% {
-    transform: none;
-  }
-  50% {
     transform: rotateY(1turn);
   }
   100% {
