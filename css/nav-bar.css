@@ -33,6 +33,18 @@
   }
 }
 
+@keyframes badge {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(1turn);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav .nav__badge {
   position: absolute;
   top: -7px;
@@ -46,6 +58,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  animation: badge 2s ease-in infinite;
 }
 
 @keyframes showNavBar {
